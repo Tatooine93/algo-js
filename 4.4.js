@@ -14,9 +14,6 @@ function multiRand() {
     return arr;
 }
 
-
-
-
 function average() {
 for (let elem of arr) {
         total = total + elem;

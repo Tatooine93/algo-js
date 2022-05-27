@@ -1,7 +1,7 @@
 const readlineSync = require("readline-sync");
 
-let minAge = readlineSync.question('Can you give the minimun age ?');
-let maxAge = readlineSync.question('Can you give the maximum age ?');
+let minAge = readlineSync.question('Give me the minimun age ?');
+let maxAge = readlineSync.question('Give me the maximum age ?');
 
 if (minAge > maxAge){
     console.log("Your are a desperate case")
