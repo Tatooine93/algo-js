@@ -2,8 +2,8 @@ const readlineSync = require("readline-sync");
 
 console.log("Let's play with numbers");
 
-let x = new Number(readlineSync.question('Can you give me the value of X ?'));
-let y = new Number(readlineSync.question('Can you give me the value of Y ?')) ;
+let x = Number(readlineSync.question('Can you give me the value of X ?'));
+let y = Number(readlineSync.question('Can you give me the value of Y ?')) ;
 
 console.log("that's an addition:" + (x + y));
 
